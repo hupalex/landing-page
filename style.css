@@ -24,3 +24,45 @@ header a{
     display: flex;
     gap: 20px;
 }
+
+.first-container{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #1F2937;
+    color: white;
+    padding-top: 70px;
+    flex: 1;
+    justify-content: center;
+}
+
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-bottom: 50px;
+    max-width: 550px;
+    margin-right: 20px;
+}
+
+.signup-container button{
+    width: 100px;
+    background-color: rgb(67, 177, 241);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.image-placeholder{
+    display: flex;
+    flex:1;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    max-width: 350px;
+    min-width: 200px;
+
+}
