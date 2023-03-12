@@ -4,6 +4,7 @@ body{
     margin: 0;
 }
 
+
 header, footer{
     display: flex;
     align-items: center;
@@ -24,6 +25,8 @@ header a{
     display: flex;
     gap: 20px;
 }
+
+/*First container design elements*/
 
 .first-container{
     display: flex;
@@ -54,7 +57,6 @@ header a{
     padding: 5px;
 }
 
-
 .image-placeholder{
     display: flex;
     flex:1;
@@ -65,4 +67,68 @@ header a{
     max-width: 350px;
     min-width: 200px;
 
+}
+/*Second container design elements*/
+
+.second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-border{
+    border: 2px solid rgb(25, 205, 236);
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.info-images{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.info-image p{
+    max-width: 100px;
+    text-align: center;
+    margin: 5px 20px;
+
+}
+
+h3{
+    text-align: center;
+}
+
+/*Third container design elements*/
+
+.quote-container{
+    display: flex;
+    background-color: rgb(226, 226, 226);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.quote-container p{
+    font-size: 25px;
+    font-style: italic;
+    max-width: 500px;
+    min-width: 450px;
+    color: rgb(78, 78, 78);
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+
+.quote-container .someone{
+    color: black;
+    display: flex;
+    margin-left: 570px;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
 }
