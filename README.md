@@ -1,1 +1,3 @@
 # landing-page
+This is a landing page excercise that I've made to practice the things I have learned so far.
+it's purpose is the show the HTML, CSS related skills that I have gained so far...
