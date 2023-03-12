@@ -132,3 +132,61 @@ h3{
     font-size: 20px;
     font-weight: bold;
 }
+
+/*Fourth container design elements*/
+
+.call-to-action-container{
+    display: flex;
+    justify-content: flex-start;
+    padding: 80px;
+    justify-content: center;
+
+}
+
+.call-to-action-card-text{
+    display: flex;
+    border-radius: 10px;
+    width: 800px;
+    flex-direction: column;
+    color: white;
+    min-width: 300px;
+    max-width: 500px;
+    justify-content: flex-start;
+
+}
+
+.div-background{
+    display: flex;
+    background-color: rgb(0, 153, 255);
+    padding: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    max-width: 700px;
+    
+}
+
+#call-to-action-button{
+    height: 25px;
+    width: 70px;
+    color: white;
+    background-color: rgb(0, 153, 255);
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.call-to-action-card-text p,h4{
+    margin: 0;
+}
+
+.call-to-action-card-text h4{
+    font-size: 20px;
+}
+
+/*footer design elements*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
